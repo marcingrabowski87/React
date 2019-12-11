@@ -8,7 +8,7 @@ class List extends React.Component {
         title: PropTypes.node,
         children: PropTypes.node.isRequired,
     }
-
+    static defaultProps = { children: <p>!!!!!</p> }
     render() {
         return (
             <section className={styles.component}>
